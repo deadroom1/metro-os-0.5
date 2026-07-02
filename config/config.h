@@ -1,0 +1,13 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+
+#define METRO_OS_NAME "METRO-OS"
+#define METRO_OS_VERSION "0.5"
+#define METRO_OS_BUILD_ID "D34DR00M-1.5.5"
+
+#define METRO_KERNEL_STACK_SIZE 16384u
+#define METRO_IDT_ENTRIES 256u
+#define METRO_IRQ_COUNT 16u
+#define METRO_HEAP_SIZE 65536u
+
+#endif
